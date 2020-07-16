@@ -9,8 +9,8 @@ const char* ssid = "东南沿海王大哥";
 const char* pass = "19981213";
 
 void setup() {
-    WiFi.mode(WIFI_AP_STA);//设置WiFi模式
-    WiFi.softAP(ssid, pass);
+    WiFi.mode(WIFI_STA);//设置WiFi模式
+    
 }
 
 // the loop function runs over and over again until power down or reset
