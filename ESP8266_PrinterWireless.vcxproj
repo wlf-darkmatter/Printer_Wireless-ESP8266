@@ -107,17 +107,38 @@
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="ESP8266_PrinterWireless.ino">
-      <FileType>CppCode</FileType>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
+    <None Include="Printer_Wireless-ESP8266.ino" />
     <None Include="src\arduino folders read me.txt">
     </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.ESP8266_PrinterWireless.vsarduino.h" />
     <ClInclude Include="__vm\.Printer_Wireless-ESP8266.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\wlf_x\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src\WiFiClient.cpp" />
+    <ClCompile Include="C:\Users\wlf_x\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src\WiFiClientSecureAxTLS.cpp" />
+    <ClCompile Include="C:\Users\wlf_x\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src\WiFiClientSecureBearSSL.cpp" />
+    <ClCompile Include="C:\Users\wlf_x\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src\WiFiServer.cpp" />
+    <ClCompile Include="C:\Users\wlf_x\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src\WiFiServerSecureAxTLS.cpp" />
+    <ClCompile Include="C:\Users\wlf_x\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src\WiFiServerSecureBearSSL.cpp" />
+    <ClCompile Include="C:\Users\wlf_x\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3\libraries\ESP8266WiFi\src\WiFiUdp.cpp" />
+    <ClCompile Include="src\BearSSLHelpers.cpp" />
+    <ClCompile Include="src\CertStoreBearSSL.cpp" />
+    <ClCompile Include="src\ESP8266WiFi.cpp" />
+    <ClCompile Include="src\ESP8266WiFiAP.cpp" />
+    <ClCompile Include="src\ESP8266WiFiGeneric.cpp" />
+    <ClCompile Include="src\ESP8266WiFiMulti.cpp" />
+    <ClCompile Include="src\ESP8266WiFiScan.cpp" />
+    <ClCompile Include="src\ESP8266WiFiSTA-WPS.cpp" />
+    <ClCompile Include="src\ESP8266WiFiSTA.cpp" />
+    <ClCompile Include="src\WiFiClient.cpp" />
+    <ClCompile Include="src\WiFiClientSecureAxTLS.cpp" />
+    <ClCompile Include="src\WiFiClientSecureBearSSL.cpp" />
+    <ClCompile Include="src\WiFiServer.cpp" />
+    <ClCompile Include="src\WiFiServerSecureAxTLS.cpp" />
+    <ClCompile Include="src\WiFiServerSecureBearSSL.cpp" />
+    <ClCompile Include="src\WiFiUdp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -5,13 +5,11 @@
 */
 #include <ESP8266WiFi.h>
 
-const char* ssid = "ä¸œå—æ²¿æµ·ç‹å¤§å“¥";
+const char* ssid = "¶«ÄÏÑØº£Íõ´ó¸ç";
 const char* pass = "19981213";
 
 void setup() {
-    Serial.begin(115200);
-    WiFi.mode(WIFI_STA);//è®¾ç½®WiFiæ¨¡å¼
-    WiFi.localIP();
+    WiFi.mode(WIFI_STA);//ÉèÖÃWiFiÄ£Ê½
     
 }
 
