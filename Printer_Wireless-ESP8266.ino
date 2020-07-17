@@ -46,39 +46,39 @@ void setup() {
 
 	delay(5000);//延时便于查看效果
 
-/*   Serial.println("同步扫描开始");
-    int n = WiFi.scanNetworks();    //开始同步扫描，将返回值
-    Serial.println("同步扫描结束");   //存放在变量n中
-    if (n == 0) {
-        Serial.println("找不到网络");
-    }
-    else {
-        Serial.println("发现网络");
-        for (int i = 0; i < n; ++i) {  //开始逐个打印扫描到的
-            Serial.print(i + 1);        //接入点信息
-            Serial.print(": ");
-            //打印wifi账号
-            Serial.print(WiFi.SSID(i));
-            //打印该接入点信道
-            Serial.print(String(",   WIFI信道:") + WiFi.channel(i));
-            Serial.print(",   是否隐藏：");
-            //打印该接入点是否隐藏
-            Serial.print(WiFi.isHidden(i) ? "隐藏" : "显示");
-            Serial.print(",   信号强度：");
-            //打印wifi信号强度
-            Serial.print(WiFi.RSSI(i));
-            Serial.print("dBm");
-            Serial.print(",   是否加密：");
-            //打印wifi加密方式
-            Serial.println((WiFi.encryptionType(i) == ENC_TYPE_NONE) ? "开放" : "加密");
-            delay(10);
-        }
-    }
-    Serial.println("");
-    */
+	/*   Serial.println("同步扫描开始");
+	int n = WiFi.scanNetworks();    //开始同步扫描，将返回值
+	Serial.println("同步扫描结束");   //存放在变量n中
+	if (n == 0) {
+	Serial.println("找不到网络");
+	}
+	else {
+	Serial.println("发现网络");
+	for (int i = 0; i < n; ++i) {  //开始逐个打印扫描到的
+	Serial.print(i + 1);        //接入点信息
+	Serial.print(": ");
+	//打印wifi账号
+	Serial.print(WiFi.SSID(i));
+	//打印该接入点信道
+	Serial.print(String(",   WIFI信道:") + WiFi.channel(i));
+	Serial.print(",   是否隐藏：");
+	//打印该接入点是否隐藏
+	Serial.print(WiFi.isHidden(i) ? "隐藏" : "显示");
+	Serial.print(",   信号强度：");
+	//打印wifi信号强度
+	Serial.print(WiFi.RSSI(i));
+	Serial.print("dBm");
+	Serial.print(",   是否加密：");
+	//打印wifi加密方式
+	Serial.println((WiFi.encryptionType(i) == ENC_TYPE_NONE) ? "开放" : "加密");
+	delay(10);
+	}
+	}
+	Serial.println("");
+	*/
 	Serial.begin(74880);
-    pinMode(D1,OUTPUT);
-    digitalWrite(D1,LOW);
+	pinMode(D1,INPUT);
+	pinMode(D2,INPUT);
 }
 
 // the loop function runs over and over again until power down or reset
